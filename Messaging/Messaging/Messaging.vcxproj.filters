@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{9bde7cd8-e45d-4139-980f-c21dbf34efeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{47e2a94d-7da8-4a8e-b7e8-35f18b6bf128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{3fa4ff61-888b-48df-95e7-917b9b87d777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{3734563c-7415-4812-8e8d-2de939d97306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{3496c859-d3d8-4def-b7d3-fbb98c9acd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Custom Widgets">
+      <UniqueIdentifier>{b7760a97-c70a-4080-950a-83432c2334fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Custom Widgets">
+      <UniqueIdentifier>{8ab63b11-87ef-4de5-af2e-e2af4d172eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XML">
+      <UniqueIdentifier>{7f5364d2-0e73-413e-b51f-ce60b723ffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\PopUps">
+      <UniqueIdentifier>{f04f8ff9-caff-4994-bccf-04d42218f736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\PopUps">
+      <UniqueIdentifier>{1ec95a57-e903-4c92-aab7-31c23fff5739}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocket.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="wsa.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="netInt.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlInterface.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlStringWriter.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkFlags.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyles.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="myFieldRow.h">
+      <Filter>Header Files\GUI\Custom Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="myButton.h">
+      <Filter>Header Files\GUI\Custom Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="autoMultiLine.h">
+      <Filter>Header Files\GUI\Custom Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="myTextDisplay.h">
+      <Filter>Header Files\GUI\Custom Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="clientPopUp.h">
+      <Filter>Header Files\GUI\PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="serverPopUp.h">
+      <Filter>Header Files\GUI\PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>Header Files\GUI\PopUps</Filter>
+    </ClInclude>
+    <ClInclude Include="miniz.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="compression.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSocket.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="wsa.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="netInt.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlInterface.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="autoMultiLine.cpp">
+      <Filter>Source Files\GUI\Custom Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="myFieldRow.cpp">
+      <Filter>Source Files\GUI\Custom Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="myButton.cpp">
+      <Filter>Source Files\GUI\Custom Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="myTextDisplay.cpp">
+      <Filter>Source Files\GUI\Custom Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="clientPopUp.cpp">
+      <Filter>Source Files\GUI\PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="serverPopUp.cpp">
+      <Filter>Source Files\GUI\PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files\GUI\PopUps</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz.c">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="compression.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="encryption.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

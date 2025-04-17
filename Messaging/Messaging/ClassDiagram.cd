@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MainWindow">
+    <Position X="6.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EkBA4ACAAAEAQAAAAABEAIAIAQEABYAUgIBCAACQwAA=</HashCode>
+      <FileName>MainWindow.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_content" />
+      <Field Name="m_users" />
+      <Field Name="m_log" />
+      <Field Name="m_UsernameInput" />
+      <Field Name="m_changeUsername" />
+      <Field Name="m_message" />
+      <Field Name="m_send" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="textDisplay">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAAAAAAAACAAAAAAAAAAAAAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>myTextDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="serverInterface">
+    <Position X="18.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAgQAAAAIAAEIABQAAAAIAAAYAAgAAABAA=</HashCode>
+      <FileName>netInt.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="writer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="clientInterface">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgQAAEAAAAEIAAQAAAAAAAAYAAAAAABAA=</HashCode>
+      <FileName>netInt.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="writer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="xmlInt">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAAAAAAASAQAEAAAIAAAAAA=</HashCode>
+      <FileName>xmlInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="client">
+    <Position X="16" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="xmlInt" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="3.017" />
+        <Point X="20.25" Y="3.75" />
+        <Point X="22.788" Y="3.75" />
+        <Point X="22.788" Y="9.25" />
+        <Point X="17.5" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAAAAAAAAAAEAAAAAIBAAQAAYBAIAABAAABwA=</HashCode>
+      <FileName>client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zInt">
+    <Position X="19" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAAAAAAAACAAAAAAAUAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>compression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="encryption">
+    <Position X="19" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>encryption.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="aboutPopup">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABABAAgAAACA=</HashCode>
+      <FileName>about.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_about" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="joinServerPopUp">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <AssociationLine Name="m_username" Type="fieldRow" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="0.925" Y="8.184" />
+        <Point X="0.925" Y="11.875" />
+        <Point X="7.25" Y="11.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="m_address" Type="fieldRow" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.332" Y="8.184" />
+        <Point X="1.332" Y="11.188" />
+        <Point X="7.25" Y="11.188" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="m_cancel" Type="blueButton" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="4" />
+        <Point X="1.25" Y="0.875" />
+        <Point X="7" Y="0.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="m_accept" Type="blueButton" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.656" Y="4" />
+        <Point X="1.656" Y="1.375" />
+        <Point X="7" Y="1.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EIAAAgEAIAQQAAAAAABABAgIABIAAFgAAAAAAAFBAAA=</HashCode>
+      <FileName>clientPopUp.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_username" />
+      <Field Name="m_address" />
+      <Field Name="m_port" />
+      <Field Name="m_cancel" />
+      <Field Name="m_accept" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="fieldRow">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAgAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>myFieldRow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="createServerPopUp">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <AssociationLine Name="m_username" Type="fieldRow" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.094" Y="6.934" />
+        <Point X="12.094" Y="10.562" />
+        <Point X="8.75" Y="10.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="m_port" Type="fieldRow" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.938" Y="6.934" />
+        <Point X="12.938" Y="11.688" />
+        <Point X="8.75" Y="11.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EIAAAgEAIAQQAAAAAABABAAIABAAABgAAAAAAAFBAAA=</HashCode>
+      <FileName>serverPopUp.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_username" />
+      <Field Name="m_port" />
+      <Field Name="m_cancel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="blueButton">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="autoMultiLine">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAACAAAAAAA=</HashCode>
+      <FileName>autoMultiLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netInterface">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAAAAAAAEAAAQIAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>netInt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Timer">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Wsa">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>wsa.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClientSocket">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAQQAAAABAAAAAAAAAAAAAAIAgEBAAAAA=</HashCode>
+      <FileName>ClientSocket.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ServerSocket">
+    <Position X="20.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAIAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ServerSocket.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_string_writer">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>xmlStringWriter.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
